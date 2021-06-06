@@ -1,0 +1,53 @@
+body {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+article p {
+  font-size: 1rem;
+  color: hotpink;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.survey-picture {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.survey-picture img {
+  flex: 50%;
+  height: 100%;
+  width: 20rem;
+}
+
+.survey-answered {
+  height: 100%;
+  width: 35rem;
+}
+
+header {
+  background-image: url(../media/background.png);
+  height: 5.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #0075c2;
+  color: white;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex-direction: column;
+  flex: 50%;
+  text-align: center;
+}
